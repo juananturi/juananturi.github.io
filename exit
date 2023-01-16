@@ -1,0 +1,283 @@
+[33mcommit 96daa817f6cd4399ae958c25281167e15fc4a0f4[m[33m ([m[1;36mHEAD -> [m[1;32mSebastian[m[33m)[m
+Author: AnturiDuque <sebastian.anturi@hotmail.com>
+Date:   Wed Jan 11 07:16:32 2023 -0500
+
+    se modifica el logo remplazandolo por otro ademas de esto se cambian las imagenes usadas
+
+[1mdiff --git a/about.html b/about.html[m
+[1mindex bf77fb3..17abf87 100644[m
+[1m--- a/about.html[m
+[1m+++ b/about.html[m
+[36m@@ -83,7 +83,7 @@[m
+         <div class="container py-5">[m
+             <div class="row align-items-center">[m
+                 <div class="col-lg-6">[m
+[31m-                    <img class="img-fluid mb-4 mb-lg-0" src="img/about.jpg" alt="">[m
+[32m+[m[32m                    <img class="img-fluid mb-4 mb-lg-0" src="img/about.png" alt="">[m
+                 </div>[m
+                 <div class="col-lg-6">[m
+                     <h1 class="display-4 text-uppercase mb-4">La Mejor Fabrica De Cajas De Carton En El Eje Cafetero </h1>[m
+[36m@@ -142,7 +142,7 @@[m
+     <div class="row pt-5">[m
+         <div class="col-lg-3 col-md-6 mb-5">[m
+             <a href="index.html" class="navbar-brand">[m
+[31m-                <h1 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h1>[m
+[32m+[m[32m                <h2 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h2>[m
+             </a>[m
+             <p>Calidad excepcional, embalaje excepcional</p>[m
+             <h6 class="text-uppercase text-white py-2">Síguenos</h6>[m
+[1mdiff --git a/contact.html b/contact.html[m
+[1mindex 6cd41cd..aaf8c44 100644[m
+[1m--- a/contact.html[m
+[1m+++ b/contact.html[m
+[36m@@ -84,7 +84,7 @@[m
+                 <div class="position-relative h-100">[m
+                     <iframe class="position-relative w-100 h-100"[m
+                     [m
+[31m-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d496.95916908487936!2d-75.68806522538866!3d4.826034703816037!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3881d18c76e2c5%3A0x8fe170bd4c3a377!2sTropiTiendas!5e0!3m2!1ses!2sco!4v1666277679816!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"[m
+[32m+[m[32m                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1987.8353497185133!2d-75.68941727488097!3d4.826487572088769!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38817dc197ed33%3A0x2a2a74388163d7fc!2sFabricajas!5e0!3m2!1ses!2sco!4v1672258662393!5m2!1ses!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"[m
+                         frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"[m
+                         tabindex="0"></iframe>[m
+                 </div>[m
+[36m@@ -133,7 +133,7 @@[m
+         <div class="row pt-5">[m
+             <div class="col-lg-3 col-md-6 mb-5">[m
+                 <a href="index.html" class="navbar-brand">[m
+[31m-                    <h1 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h1>[m
+[32m+[m[32m                    <h2 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h2>[m
+                 </a>[m
+                 <p>Calidad excepcional, embalaje excepcional</p>[m
+                 <h6 class="text-uppercase text-white py-2">Síguenos</h6>[m
+[1mdiff --git "a/img/ARCHIVO N\302\26020 BASE TAPA REFORZARDA.png" "b/img/ARCHIVO N\302\26020 BASE TAPA REFORZARDA.png"[m
+[1mindex 5c1d4c3..d07bfd6 100644[m
+Binary files "a/img/ARCHIVO N\302\26020 BASE TAPA REFORZARDA.png" and "b/img/ARCHIVO N\302\26020 BASE TAPA REFORZARDA.png" differ
+[1mdiff --git "a/img/CAJA MALET\303\215N 2 BOTELLAS.png" "b/img/CAJA MALET\303\215N 2 BOTELLAS.png"[m
+[1mindex 7f0e8a9..6755e38 100644[m
+Binary files "a/img/CAJA MALET\303\215N 2 BOTELLAS.png" and "b/img/CAJA MALET\303\215N 2 BOTELLAS.png" differ
+[1mdiff --git a/img/CAJAS ARCHIVO LETRAS NEGRAS.png b/img/CAJAS ARCHIVO LETRAS NEGRAS.png[m
+[1mindex dd1ee2f..3536e26 100644[m
+Binary files a/img/CAJAS ARCHIVO LETRAS NEGRAS.png and b/img/CAJAS ARCHIVO LETRAS NEGRAS.png differ
+[1mdiff --git "a/img/Maletin peque\303\261o 1 botella.png" "b/img/Maletin peque\303\261o 1 botella.png"[m
+[1mindex d78e5e7..78b48c5 100644[m
+Binary files "a/img/Maletin peque\303\261o 1 botella.png" and "b/img/Maletin peque\303\261o 1 botella.png" differ
+[1mdiff --git a/img/caja espejo.png b/img/caja espejo.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..c24aa13[m
+Binary files /dev/null and b/img/caja espejo.png differ
+[1mdiff --git a/img/caja letras verdez.png b/img/caja letras verdez.png[m
+[1mindex f232728..0b6b1b1 100644[m
+Binary files a/img/caja letras verdez.png and b/img/caja letras verdez.png differ
+[1mdiff --git a/img/caja lonchera.png b/img/caja lonchera.png[m
+[1mindex 78f0393..4a3c650 100644[m
+Binary files a/img/caja lonchera.png and b/img/caja lonchera.png differ
+[1mdiff --git a/img/caja pizza.png b/img/caja pizza.png[m
+[1mindex d64e651..7c1dc4e 100644[m
+Binary files a/img/caja pizza.png and b/img/caja pizza.png differ
+[1mdiff --git a/img/cofre 2.png b/img/cofre 2.png[m
+[1mnew file mode 100644[m
+[1mindex 0000000..bdb055a[m
+Binary files /dev/null and b/img/cofre 2.png differ
+[1mdiff --git a/img/logo 3.psd b/img/logo 3.psd[m
+[1mnew file mode 100644[m
+[1mindex 0000000..a7f174a[m
+Binary files /dev/null and b/img/logo 3.psd differ
+[1mdiff --git a/img/logo3.jpg b/img/logo3.jpg[m
+[1mnew file mode 100644[m
+[1mindex 0000000..4274803[m
+Binary files /dev/null and b/img/logo3.jpg differ
+[1mdiff --git a/index.html b/index.html[m
+[1mindex 480dd13..d3fcc3a 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -33,7 +33,7 @@[m
+             <a href="index.html" class="navbar-brand text-secondary">[m
+                 <!-- <h1 class="display-4 text-uppercase">FABRICAJAS</h1> -->[m
+                 <div class="col-lg-50 px-0 text-right">[m
+[31m-                    <img class="img-fluid mt-2 mt-lg-0" src="img/logo2.1" alt="">[m
+[32m+[m[32m                    <img class="img-fluid mt-2 mt-lg-0" src="img/logo3.jpg" alt="">[m
+                 </div>[m
+             </a>[m
+             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">[m
+[36m@@ -163,7 +163,7 @@[m
+             <div class="row portfolio-container">[m
+                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">[m
+                     <div class="position-relative rounded overflow-hidden mb-2">[m
+[31m-                        <img class="img-fluid w-100" src="ARCHIVO N°20 BASE TAPA REFORZARDA.png" alt="">[m
+[32m+[m[32m                        <img class="img-fluid w-200" src="img/ARCHIVO N°20 BASE TAPA REFORZARDA.png" alt="">[m
+                         <div class="portfolio-btn d-flex align-items-center justify-content-center">[m
+                             <a href="img/ARCHIVO N°20 BASE TAPA REFORZARDA.png" data-lightbox="portfolio">[m
+                                 <i class="fa fa-4x fa-plus text-primary"></i>[m
+[36m@@ -173,9 +173,9 @@[m
+                 </div>[m
+                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">[m
+                     <div class="position-relative rounded overflow-hidden mb-2">[m
+[31m-                        <img class="img-fluid w-100" src="img/portfolio-2.jpg" alt="">[m
+[32m+[m[32m                        <img class="img-fluid w-100" src="img/caja letras verdez.png" alt="">[m
+                         <div class="portfolio-btn d-flex align-items-center justify-content-center">[m
+[31m-                            <a href="img/portfolio-2.jpg" data-lightbox="portfolio">[m
+[32m+[m[32m                            <a href="img/caja letras verdez.png" data-lightbox="portfolio">[m
+                                 <i class="fa fa-4x fa-plus text-primary"></i>[m
+                             </a>[m
+                         </div>[m
+[36m@@ -183,9 +183,9 @@[m
+                 </div>[m
+                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">[m
+                     <div class="position-relative rounded overflow-hidden mb-2">[m
+[31m-                        <img class="img-fluid w-100" src="img/portfolio-3.jpg" alt="">[m
+[32m+[m[32m                        <img class="img-fluid w-100" src="img/caja pizza.png" alt="">[m
+                         <div class="portfolio-btn d-flex align-items-center justify-content-center">[m
+[31m-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">[m
+[32m+[m[32m                            <a href="img/caja pizza.png" data-lightbox="portfolio">[m
+                                 <i class="fa fa-4x fa-plus text-primary"></i>[m
+                             </a>[m
+                         </div>[m
+[36m@@ -193,9 +193,9 @@[m
+                 </div>[m
+                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">[m
+                     <div class="position-relative rounded overflow-hidden mb-2">[m
+[31m-                        <img class="img-fluid w-100" src="img/portfolio-4.jpg" alt="">[m
+[32m+[m[32m                        <img class="img-fluid w-100" src="img/CAJAS ARCHIVO LETRAS NEGRAS.png" alt="">[m
+                         <div class="portfolio-btn d-flex align-items-center justify-content-center">[m
+[31m-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">[m
+[32m+[m[32m                            <a href="img/CAJAS ARCHIVO LETRAS NEGRAS.png" data-lightbox="portfolio">[m
+                                 <i class="fa fa-4x fa-plus text-primary"></i>[m
+                             </a>[m
+                         </div>[m
+[36m@@ -203,9 +203,9 @@[m
+                 </div>[m
+                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">[m
+                     <div class="position-relative rounded overflow-hidden mb-2">[m
+[31m-                        <img class="img-fluid w-100" src="img/portfolio-5.jpg" alt="">[m
+[32m+[m[32m                        <img class="img-fluid w-100" src="img/caja lonchera.png" alt="">[m
+                         <div class="portfolio-btn d-flex align-items-center justify-content-center">[m
+[31m-                            <a href="img/portfolio-3.jpg" data-lightbox="portfolio">[m
+[32m+[m[32m                            <a href="img/caja lonchera.png" data-lightbox="portfolio">[m
+                                 <i class="fa fa-4x fa-plus text-primary"></i>[m
+                             </a>[m
+                         </div>[m
+[36m@@ -213,9 +213,9 @@[m
+                 </div>[m
+                 <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">[m
+                     <div class="position-relative rounded overflow-hidden mb-2">[m
+[31m-                        <img class="img-fluid w-100" src="img/portfolio-6.jpg" alt="">[m
+[32m+[m[32m                        <img class="img-fluid w-100" src="img/CAJA MALETÍN 2 BOTELLAS.png" alt="">[m
+                         <div class="portfolio-btn d-flex align-items-center justify-content-center">[m
+[31m-                            <a href="img/portfolio-4.jpg" data-lightbox="portfolio">[m
+[32m+[m[32m                            <a href="img/CAJA MALETÍN 2 BOTELLAS.png" data-lightbox="portfolio">[m
+                                 <i class="fa fa-4x fa-plus text-primary"></i>[m
+                             </a>[m
+                         </div>[m
+[36m@@ -272,7 +272,7 @@[m
+ [m
+                     </div>[m
+                 </div>[m
+[31m-[m
+[32m+[m[32m            <form action="" method="post">[m
+                 <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem;">  [m
+                     <a href="img/caja pizza.png" data-lightbox="portfolio-4">[m
+                         <i class="fa fa-4x fa-plus text-primary"></i>[m
+[36m@@ -280,25 +280,28 @@[m
+                     <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">[m
+                         <h5 class="text-uppercase">Cajas para pizza</h5>[m
+                         <h6 class="text-uppercase text-body mb-5">[m
+[31m-                            <select name="medida" id="">[m
+[31m-                                <option value="">Caja pizza 21*21*5</option>[m
+[31m-                                <option value="">Caja pizza 27*27*5</option>[m
+[31m-                                <option value="">Caja pizza 30*30*5</option>[m
+[31m-                                <option value="">Caja pizza 35*35*5</option>[m
+[31m-                                <option value="">Caja pizza 35*35*8</option>[m
+[31m-                                <option value="">Caja pizza 40*40*5</option>[m
+[32m+[m[32m                            <select name="medida[]" id="">[m
+[32m+[m[32m                                <option value="Caja pizza 21*21*5">Caja pizza 21*21*5</option>[m
+[32m+[m[32m                                <option value="Caja pizza 27*27*5">Caja pizza 27*27*5</option>[m
+[32m+[m[32m                                <option value="Caja pizza 30*30*5">Caja pizza 30*30*5</option>[m
+[32m+[m[32m                                <option value="Caja pizza 35*35*5">Caja pizza 35*35*5</option>[m
+[32m+[m[32m                                <option value="Caja pizza 35*35*8">Caja pizza 35*35*8</option>[m
+[32m+[m[32m                                <option value="Caja pizza 40*40*5">Caja pizza 40*40*5</option>[m
+                             </select>[m
+[32m+[m[32m            </form>[m
+                         </h6>[m
+                         <p>$ Por definir</p>[m
+                         <p>IVA incluido</p> [m
+[31m-                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Caja Pizza" class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>[m
+[32m+[m[32m                        <a href="https://wa.me/573104420576?text=Hola me interesa su articulo Caja Pizza  "[m[41m [m
+[32m+[m[41m                       [m
+[32m+[m[32m                         class="btn btn-dark text-uppercase py-2 px-4 my-3">Haz tu orden</a>[m
+ [m
+                     </div>[m
+[31m-[m
+[32m+[m[41m            [m
+                 </div>[m
+ [m
+                 <div class=" card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem;">  [m
+[31m-                    <a href="img/portfolio-8.jpg" data-lightbox="portfolio-5">[m
+[32m+[m[32m                    <a href="img/caja espejo.png" data-lightbox="portfolio-5">[m
+                         <i class="fa fa-4x fa-plus text-primary"></i>[m
+                         </a>[m
+                     <div class="bg-light rounded text-center pt-2 mt-lg-2 mb-1">[m
+[36m@@ -687,7 +690,7 @@[m
+         <div class="row pt-5">[m
+             <div class="col-lg-3 col-md-6 mb-5">[m
+                 <a href="index.html" class="navbar-brand">[m
+[31m-                    <h1 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h1>[m
+[32m+[m[32m                    <h2 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h2>[m
+                 </a>[m
+                 <p>Calidad excepcional, embalaje excepcional</p>[m
+                 <h6 class="text-uppercase text-white py-2">Síguenos</h6>[m
+[36m@@ -699,7 +702,7 @@[m
+                 </div>[m
+             </div>[m
+             <div class="col-lg-3 col-md-6 mb-5">[m
+[31m-                <h4 class="text-uppercase text-white mb-4">Ponerse en contacto</h4>[m
+[32m+[m[32m                <h4 class="text-uppercase text-white mb-4">Ponete en contacto</h4>[m
+                 <p><i class="fa fa-map-marker-alt text-white mr-2"></i>Cll 15 #7-114 Bg 33 Zona Industrial La Macarena Dosquebradas</p>[m
+                 <p><i class="fa fa-phone-alt text-white mr-2"> Cell</i>+57 310 4420576</p>[m
+                 <p><i class="fa fa-phone-alt text-white mr-2"> Tell</i> 330 0012</p>[m
+[1mdiff --git a/price.html b/price.html[m
+[1mindex 013cb0b..78cf664 100644[m
+[1m--- a/price.html[m
+[1m+++ b/price.html[m
+[36m@@ -82,7 +82,7 @@[m
+     <!-- Pricing Plan Start -->[m
+     <div class="container-fluid py-5">[m
+         <div class="container pt-5 pb-3">[m
+[31m-            <h1 class="display-4 text-uppercase text-center mb-5">Precios</h1>[m
+[32m+[m[41m            [m
+             <div class="row">[m
+                 <div class="card portfolio-btn d-flex align-items-center justify-content-center " style="width: 15rem;">  [m
+                     <a href="img/portfolio-1.jpg" data-lightbox="portfolio1">[m
+[36m@@ -261,7 +261,7 @@[m
+         <div class="row pt-5">[m
+             <div class="col-lg-3 col-md-6 mb-5">[m
+                 <a href="index.html" class="navbar-brand">[m
+[31m-                    <h1 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h1>[m
+[32m+[m[32m                    <h2 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h2>[m
+                 </a>[m
+                 <p>Calidad excepcional, embalaje excepcional</p>[m
+                 <h6 class="text-uppercase text-white py-2">Síguenos</h6>[m
+[1mdiff --git a/project.html b/project.html[m
+[1mindex f70c7df..ac8a1ff 100644[m
+[1m--- a/project.html[m
+[1m+++ b/project.html[m
+[36m@@ -170,7 +170,7 @@[m
+         <div class="row pt-5">[m
+             <div class="col-lg-3 col-md-6 mb-5">[m
+                 <a href="index.html" class="navbar-brand">[m
+[31m-                    <h1 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h1>[m
+[32m+[m[32m                    <h2 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h2>[m
+                 </a>[m
+                 <p>Calidad excepcional, embalaje excepcional</p>[m
+                 <h6 class="text-uppercase text-white py-2">Síguenos</h6>[m
+[1mdiff --git a/service.html b/service.html[m
+[1mindex d49a0d8..a41134e 100644[m
+[1m--- a/service.html[m
+[1m+++ b/service.html[m
+[36m@@ -121,7 +121,7 @@[m
+         <div class="row pt-5">[m
+             <div class="col-lg-3 col-md-6 mb-5">[m
+                 <a href="index.html" class="navbar-brand">[m
+[31m-                    <h1 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h1>[m
+[32m+[m[32m                    <h2 class="m-0 mt-n2 text-white display-6">FABRICAJASPEREIRA.COM</h2>[m
+                 </a>[m
+                 <p<p>Calidad excepcional, embalaje excepcional</p>[m
+                 <h6 class="text-uppercase text-white py-2">Síguenos</h6>[m
