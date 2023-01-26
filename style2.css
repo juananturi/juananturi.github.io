@@ -49,6 +49,7 @@ header-card img{
 .text-perfil-card{
     display: flex;
     flex-flow: column;
+    margin-left: 150px;
 }
 .text-perfil-card span:nth-child(2){
     color: #cfcfcf;
@@ -56,4 +57,5 @@ header-card img{
 .card-wrap{
     display: flex;
     flex-flow: wrap;
+    margin-left: 5rem;
 }
